@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "database": "invoicesDb",
+    "username": "ivoiceuser1",
+    "password": "invoicepass1",
+    "host": "localhost",
+    "dialect": "mysql" 
+  },
+  "staging": {
+    "database": "",
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "dialect": "mysql" 
+  },
+  "prod": {
+    "database": "",
+    "username": "",
+    "password": "",
+    "host": "",
+    "dialect": "mysql" 
+  }
+}

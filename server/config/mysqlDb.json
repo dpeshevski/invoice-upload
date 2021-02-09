@@ -1,17 +1,18 @@
 {
   "dev": {
-    "database": "invoicesDb",
-    "username": "ivoiceuser1",
-    "password": "invoicepass1",
+    "database": "invoice",
+    "username": "codeacademy",
+    "password": "codeacademy2019",
     "host": "localhost",
+    "port": 3306,
     "dialect": "mysql" 
   },
   "staging": {
-    "database": "",
-    "username": "",
-    "password": "",
+    "database": "invoice_test",
+    "username": "invoice_app_test",
+    "password": "invoicepasstest!((@",
     "host": "localhost",
-    "dialect": "mysql" 
+    "dialect": "mysql"
   },
   "prod": {
     "database": "",
